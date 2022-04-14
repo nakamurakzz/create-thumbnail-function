@@ -1,0 +1,20 @@
+{  
+  "Records":[  
+     {  
+        "eventVersion":"2.1",
+        "eventSource":"aws:s3",
+        "awsRegion":"ap-east-1",
+        "eventTime":"1970-01-01T00:00:00.000Z",
+        "eventName":"ObjectCreated:Put",
+        "s3":{  
+           "s3SchemaVersion":"1.0",
+           "bucket":{  
+              "name":"sampleBucket"
+           },
+           "object":{  
+              "key":"folder/imageFile.jpg"
+           }
+        }
+     }
+  ]
+}
